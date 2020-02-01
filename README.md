@@ -21,9 +21,11 @@ sudo apt install -y boot-repair && (boot-repair &)
 Фикс анимации в экране
 
 Управление питанием
+В параметрах среды отключить потухание экрана
 
 Настроить виджеты и нижнюю панель
 Закреп нужных прог
+В параметрах среды отключить потухание экрана
 
 sudo apt install chromium-browser
 sudo apt install flameshot
@@ -34,11 +36,11 @@ sudo snap install telegram-desktop
 sudo apt install python3-pip
 sudo pip3 install transliterate django bs4
 
-sudo snap install pycharm-professional
-sudo snap install intellij-idea-ultimate
-sudo snap install datagrip
-sudo snap install rider 
-sudo snap install clion
+sudo snap install pycharm-professional --classic
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install datagrip --classic
+sudo snap install rider  --classic
+sudo snap install clion --classic
 sudo snap install sublime-text --classic
 
 Хром по умолчанию, телега, скрин на автозапуск
