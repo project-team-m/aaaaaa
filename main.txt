@@ -30,6 +30,7 @@ sudo apt install -y boot-repair && (boot-repair &)
 sudo apt install chromium-browser
 sudo apt install flameshot
 sudo apt install wine-stable
+sudo apt install git
 sudo apt install snapd
 sudo snap install telegram-desktop
 
