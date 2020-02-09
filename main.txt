@@ -35,6 +35,7 @@ sudo apt install -y git
 sudo apt install -y snapd
 sudo apt install -y synaptic
 sudo apt install -y kubuntu-restricted-extras
+sudo apt install -y playonlinux
 sudo snap install telegram-desktop
 
 sudo apt install python3-pip
