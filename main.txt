@@ -40,7 +40,7 @@ sudo apt install -y qbittorrent
 sudo snap install telegram-desktop
 
 sudo apt install python3-pip
-sudo pip3 install transliterate django bs4
+sudo pip3 install transliterate django bs4 install python-telegram-bot pymysql
 
 sudo snap install pycharm-professional --classic
 sudo snap install intellij-idea-ultimate --classic
