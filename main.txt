@@ -37,6 +37,7 @@ sudo apt install -y synaptic
 sudo apt install -y kubuntu-restricted-extras
 sudo apt install -y playonlinux
 sudo apt install -y qbittorrent
+sudo apt install -y libreoffice
 sudo snap install telegram-desktop
 
 sudo apt install python3-pip
