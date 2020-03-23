@@ -31,7 +31,7 @@ sudo apt install -y boot-repair && (boot-repair &)
 sudo apt install -y chromium-browser
 sudo apt install -y flameshot
 sudo apt install -y wine-stable
-sudo apt install -y git
+sudo apt install -y git screen
 sudo apt install -y snapd winbind
 sudo apt install -y synaptic
 sudo apt install -y kubuntu-restricted-extras
@@ -41,7 +41,7 @@ sudo apt install -y libreoffice
 sudo snap install telegram-desktop
 
 sudo apt install python3-pip
-sudo pip3 install transliterate django bs4 install python-telegram-bot pymysql psycopg2-binary sympy numpy discord
+sudo pip3 install transliterate django bs4 install python-telegram-bot pymysql psycopg2-binary sympy numpy discord.py
 
 sudo snap install pycharm-professional --classic
 sudo snap install intellij-idea-ultimate --classic
