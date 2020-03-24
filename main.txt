@@ -95,3 +95,7 @@ GRANT ALL PRIVILEGES ON * . * TO 'non-root'@'localhost';
 FLUSH PRIVILEGES;
 /etc/mysql/mysql.conf.d закомментить bind-address 
 sudo systemctl restart mysql
+
+default-time-zone = +3:00  
+
+Поставить кодировку utf8
