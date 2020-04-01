@@ -41,7 +41,7 @@ sudo apt install -y libreoffice
 sudo snap install telegram-desktop
 
 sudo apt install python3-pip
-sudo pip3 install transliterate django bs4 install python-telegram-bot pymysql psycopg2-binary sympy numpy discord.py flask flask-sqlalchemy mysql-connector flask-migrate
+sudo pip3 install transliterate django bs4 install python-telegram-bot pymysql psycopg2-binary sympy numpy discord.py flask flask-sqlalchemy mysql-connector flask-migrate flask-script
 
 sudo snap install pycharm-professional --classic
 sudo snap install intellij-idea-ultimate --classic
