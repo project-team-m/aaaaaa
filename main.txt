@@ -98,7 +98,15 @@ GRANT ALL PRIVILEGES ON * . * TO 'non-root'@'localhost';
 FLUSH PRIVILEGES;
 /etc/mysql/mysql.conf.d закомментить bind-address 
 sudo systemctl restart mysql
-
 default-time-zone = +3:00  
-
 Поставить кодировку utf8
+
+PosqgreSQL
+sudo apt install postgresql postgresql-contrib
+CREATE USER user WITH PASSWORD 'pass';
+ALTER USER user WITH SUPERUSER;
+
+находим конфиг из ps aux | grep postgres | grep -- -D
+listen_addresses = '*'
+в этой же папке в файл pg_hba.conf, добавляем host     all     all     192.168.0.10/32     password
+systemctl restart postgresql
