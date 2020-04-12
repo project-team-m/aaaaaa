@@ -48,6 +48,7 @@ sudo snap install intellij-idea-ultimate --classic
 sudo snap install datagrip --classic
 sudo snap install rider  --classic
 sudo snap install clion --classic
+sudo snap install webstorm --classic
 sudo snap install sublime-text --classic
 
 Хром по умолчанию, телега, скрин на автозапуск
