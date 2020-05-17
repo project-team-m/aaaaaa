@@ -28,7 +28,6 @@ sudo apt install -y boot-repair && (boot-repair &)
 Закреп нужных прог
 В параметрах среды отключить потухание экрана
 
-sudo apt install -y chromium-browser
 sudo apt install -y flameshot
 sudo apt install -y wine-stable
 sudo apt install -y git screen
@@ -38,9 +37,21 @@ sudo apt install -y kubuntu-restricted-extras
 sudo apt install -y playonlinux
 sudo apt install -y qbittorrent
 sudo apt install -y libreoffice
+
+sudo pacman -S --noconfirm flameshot
+sudo pacman -S --noconfirm wine-stable
+sudo pacman -S --noconfirm git screen
+sudo pacman -S --noconfirm snapd winbind
+sudo pacman -S --noconfirm synaptic
+sudo pacman -S --noconfirm qbittorrent
+sudo pacman -S --noconfirm libreoffice
+
 sudo snap install telegram-desktop
 
 sudo apt install python3-pip
+
+sudo pacman -S --noconfirm install python3-pip
+
 sudo pip3 install transliterate django bs4 install python-telegram-bot pymysql psycopg2-binary sympy numpy discord.py flask flask-sqlalchemy mysql-connector flask-migrate flask-script wtforms
 
 sudo snap install pycharm-professional --classic
