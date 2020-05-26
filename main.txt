@@ -48,7 +48,7 @@ sudo snap install telegram-desktop
 
 sudo apt install python3-pip
 
-sudo pip3 install transliterate django bs4 python-telegram-bot pymysql psycopg2-binary sympy numpy discord.py flask flask-sqlalchemy mysql-connector flask-migrate flask-script wtforms
+sudo pip3 install transliterate django bs4 python-telegram-bot pymysql psycopg2-binary sympy numpy discord.py flask flask-sqlalchemy mysql-connector flask-migrate flask-script wtforms dependency_injector
 
 sudo snap install pycharm-professional --classic
 sudo snap install intellij-idea-ultimate --classic
