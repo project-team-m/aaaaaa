@@ -117,3 +117,5 @@ ALTER USER user WITH SUPERUSER;
 находим конфиг из ps aux | grep postgres | grep -- -D
 listen_addresses = '*'
 в этой же папке в файл pg_hba.conf, добавляем host     all     all     192.168.0.10/32     password
+
+чтобы сбросить ssh ключи rm -rf ~/.ssh
