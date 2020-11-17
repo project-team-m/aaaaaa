@@ -119,3 +119,9 @@ listen_addresses = '*'
 в этой же папке в файл pg_hba.conf, добавляем host     all     all     192.168.0.10/32     password
 
 чтобы сбросить ssh ключи rm -rf ~/.ssh
+
+git clone https://aur.archlinux.org/mongodb-bin.git
+cd mongodb-bin
+makepkg -si
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
