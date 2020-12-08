@@ -126,3 +126,5 @@ makepkg -si
 sudo chown -R mongodb:mongodb /var/lib/mongodb
 sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
 echo "export DEV_LOCAL_KEY=\"$(head -c 96 /dev/urandom | base64 | tr -d '\n')\"" >> ~/.profile
+
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
